@@ -1,0 +1,9 @@
+Package: timecard
+Type: Package
+Title: Record your R working time
+Version: 0.1.0
+Date: 2015-12-12
+Author: Yoshio TOKOROSAWA
+Description: Record your R working time
+License: MIT
+Imports: httr
