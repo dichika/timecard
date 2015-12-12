@@ -6,4 +6,6 @@ Date: 2015-12-12
 Author: Yoshio TOKOROSAWA
 Description: Record your R working time
 License: MIT
-Imports: httr
+Imports:
+    httr
+RoxygenNote: 5.0.1
