@@ -7,7 +7,7 @@ sushi <- function(num_loop=3, interval=0.5){
 }
 loadTimecard <- function(){
 require(timecard)
-cat("Push Enter key till a cursor advent...")
+cat("Push Enter key till a cursor advents...")
 }
 
 .onLoad <- function(libname = find.package("timecard"), pkgname = "timecard"){
