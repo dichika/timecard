@@ -5,6 +5,10 @@ sushi <- function(num_loop=3, interval=0.5){
     flush.console()
   }
 }
+loadTimecard <- function(){
+require(timecard)
+}
+
 .onLoad <- function(libname = find.package("timecard"), pkgname = "timecard"){
   if (!interactive()) return()
   un <-   readline("username: ")
