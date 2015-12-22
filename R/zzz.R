@@ -22,7 +22,7 @@ cat("Push Enter key till a cursor advents...")
              ))
   sushi(2, 0.5)
   .Last <<- function(){
-    cat("wait... now posting")
+    cat("Now posting... wait with deep breathing")
     sushi(1)
     on.exit(unlink("timecard_temporary"))
     if(file.exists("timecard_temporary")){
