@@ -1,4 +1,4 @@
 Name: Insert %in%
 Description: Inserts `%in%` at the cursor position.
-Binding: print
+Binding: loadTimecard
 Interactive: false
