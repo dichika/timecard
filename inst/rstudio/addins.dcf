@@ -1,4 +1,4 @@
-Name: Insert %in%
-Description: Inserts `%in%` at the cursor position.
+Name: Push Timecard
+Description: Push your R start time to web
 Binding: loadTimecard
 Interactive: false
