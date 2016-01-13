@@ -10,9 +10,12 @@ require(timecard)
 cat("Push Enter key till a cursor advents...")
 }
 
-.onLoad <- function(libname = find.package("timecard"), pkgname = "timecard"){
-  if (!interactive()) return()
-  un <-   readline("username: ")
+.onLoad <- function(libname = find.package("timecard"), pkgname = "timecard", un = getOption("github.user")){
+  if (!interactive())
+    return()
+  if (is.null(un)) {
+    un <-   readline("username: ")
+  }
   write(un, "timecard_temporary")
   sushi(1)
   res <- httr::POST("https://docs.google.com/forms/d/1PUoc23ss4hZ32uRHAczPkZgQkKgiZPxujL-f-PFfwkw/formResponse",
